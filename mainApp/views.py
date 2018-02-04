@@ -6,4 +6,4 @@ def index(request):
 
 
 def contact(request):
-    return render(request, 'mainApp/basic.html' , {'values' : [ 'text you' ,'234']})
+    return render(request, 'mainApp/basic.html' , {'values' : [ 'text you' ,'234'] })
